@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "NovAI"
+message: "If you use NovAI or its associated resources, please cite this project."
+type: software
+
+authors:
+  - family-names: "Novriansyah"
+    given-names: "Nova"
+    affiliation: "KaryaVirtual"
+
+organization: "KaryaVirtual"
+
+repository-code: "https://github.com/novrian6/novai"
+
+url: "https://huggingface.co/karyavirtual/novai-base-102m"
+
+license: "Apache-2.0"
+
+version: "1.0"
+date-released: "2026-08-16"
