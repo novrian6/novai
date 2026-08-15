@@ -83,3 +83,62 @@ novai/
 ├── CITATION.cff
 └── docs/
     └── novai-base-102m.md
+
+```
+## Technology
+NovAI development uses open-source technologies and frameworks,
+including:
+Python
+PyTorch
+Hugging Face Transformers
+Hugging Face Datasets
+CUDA
+NVIDIA GPUs
+Third-party software and datasets remain subject to their respective
+licenses and terms.
+
+##Related Resources
+Hugging Face Organization
+https://huggingface.co/karyavirtual
+NovAI Base 102M
+https://huggingface.co/karyavirtual/novai-base-102m
+KaryaVirtual
+https://karyavirtual.com/
+Developer
+KaryaVirtual
+https://karyavirtual.com/
+Nova Novriansyah, MSc, MBA
+
+## License
+The source code and documentation in this repository are released under
+the Apache License 2.0.
+The NovAI Base 102M model weights are separately licensed and documented
+in the Hugging Face model repository:
+https://huggingface.co/karyavirtual/novai-base-102m
+The training dataset, tokenizer, and third-party software remain subject
+to their respective licenses and terms.
+
+## Citation
+If you use NovAI or its associated resources in research or derivative
+work, please cite:
+@software{novriansyah_novai_2026,
+  author       = {Novriansyah, Nova},
+  title        = {NovAI},
+  year         = {2026},
+  organization = {KaryaVirtual},
+  url          = {https://huggingface.co/karyavirtual/novai-base-102m},
+  repository-code = {https://github.com/novrian6/novai}
+}
+
+## Status
+NovAI is an ongoing AI and language-model development project.
+Future work may include:
+instruction tuning;
+conversational models;
+model evaluation;
+inference optimization;
+quantized model variants;
+downstream Indonesian NLP applications.
+NovAI — Indonesian Language Model Development by KaryaVirtual
+
+
