@@ -1,0 +1,358 @@
+Mounted at /content/drive
+GPU: NVIDIA A100-SXM4-40GB
+Menyalin dataset ke disk lokal Colab...
+Dataset berhasil disalin dan diverifikasi.
+Ukuran dataset: 3.74 GiB
+Batch size     : 16
+Gradient accum : 8
+Token per step : 131,072
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+config.json: 100%
+ 665/665 [00:00<00:00, 84.7kB/s]
+tokenizer_config.json: 100%
+ 26.0/26.0 [00:00<00:00, 3.65kB/s]
+vocab.json: 100%
+ 1.04M/1.04M [00:00<00:00, 2.20MB/s]
+merges.txt: 100%
+ 456k/456k [00:00<00:00, 886kB/s]
+tokenizer.json: 100%
+ 1.36M/1.36M [00:00<00:00, 2.61MB/s]
+Checkpoint ditemukan. Memuat...
+Resume dari step 4,174
+Jumlah parameter: 102,558,240
+Ukuran model    : 102.56M
+Jumlah token dataset: 2,010,000,000
+Sample token maksimum: 50256
+Train token tersedia : 2,000,000,000
+Validation token      : 10,000,000
+Target token training : 2,000,000,000
+Token per step        : 131,072
+Total training step   : 15,259
+Token aktual diproses : 2,000,027,648
+Batch shape : torch.Size([16, 1024])
+Batch device: cuda:0
+AMP dtype: torch.bfloat16
+>>> Memulai pre-training step 4,174 sampai 15,259
+Step 4,175/15,259 | Train Loss: 2.0005 | LR: 5.06e-04 | Speed: 50,460 tok/s
+    Sisa: 9 jam 11 menit | Estimasi selesai: 13-08-2026 02:56 WIB
+Step 4,200/15,259 | Train Loss: 1.9572 | LR: 5.05e-04 | Speed: 80,321 tok/s
+    Sisa: 5 jam 45 menit | Estimasi selesai: 12-08-2026 23:31 WIB
+--> Menyimpan checkpoint step 4,250...
+--> Checkpoint berhasil disimpan.
+Step 4,300/15,259 | Train Loss: 1.9553 | LR: 5.00e-04 | Speed: 76,621 tok/s
+    Sisa: 5 jam 59 menit | Estimasi selesai: 12-08-2026 23:47 WIB
+Step 4,400/15,259 | Train Loss: 1.8615 | LR: 4.95e-04 | Speed: 80,333 tok/s
+    Sisa: 5 jam 39 menit | Estimasi selesai: 12-08-2026 23:30 WIB
+Step 4,500/15,259 | Train Loss: 1.8912 | Val Loss: 1.8854 | LR: 4.91e-04 | Speed: 80,338 tok/s
+    Sisa: 5 jam 36 menit | Estimasi selesai: 12-08-2026 23:29 WIB
+--> Menyimpan checkpoint step 4,500...
+--> Checkpoint berhasil disimpan.
+Step 4,600/15,259 | Train Loss: 1.9619 | LR: 4.86e-04 | Speed: 76,812 tok/s
+    Sisa: 5 jam 48 menit | Estimasi selesai: 12-08-2026 23:44 WIB
+Step 4,700/15,259 | Train Loss: 1.8980 | LR: 4.81e-04 | Speed: 80,348 tok/s
+    Sisa: 5 jam 30 menit | Estimasi selesai: 12-08-2026 23:29 WIB
+--> Menyimpan checkpoint step 4,750...
+--> Checkpoint berhasil disimpan.
+Step 4,800/15,259 | Train Loss: 1.8897 | LR: 4.76e-04 | Speed: 77,223 tok/s
+    Sisa: 5 jam 40 menit | Estimasi selesai: 12-08-2026 23:42 WIB
+Step 4,900/15,259 | Train Loss: 1.9082 | LR: 4.71e-04 | Speed: 80,342 tok/s
+    Sisa: 5 jam 23 menit | Estimasi selesai: 12-08-2026 23:28 WIB
+Step 5,000/15,259 | Train Loss: 1.9144 | Val Loss: 1.8484 | LR: 4.65e-04 | Speed: 80,346 tok/s
+    Sisa: 5 jam 20 menit | Estimasi selesai: 12-08-2026 23:28 WIB
+--> Menyimpan checkpoint step 5,000...
+--> Checkpoint berhasil disimpan.
+Step 5,100/15,259 | Train Loss: 1.9282 | LR: 4.60e-04 | Speed: 76,867 tok/s
+    Sisa: 5 jam 32 menit | Estimasi selesai: 12-08-2026 23:42 WIB
+Step 5,200/15,259 | Train Loss: 1.8568 | LR: 4.55e-04 | Speed: 80,312 tok/s
+    Sisa: 5 jam 14 menit | Estimasi selesai: 12-08-2026 23:27 WIB
+--> Menyimpan checkpoint step 5,250...
+--> Checkpoint berhasil disimpan.
+Step 5,300/15,259 | Train Loss: 1.8803 | LR: 4.49e-04 | Speed: 76,851 tok/s
+    Sisa: 5 jam 25 menit | Estimasi selesai: 12-08-2026 23:41 WIB
+Step 5,400/15,259 | Train Loss: 1.7891 | LR: 4.44e-04 | Speed: 80,308 tok/s
+    Sisa: 5 jam 8 menit | Estimasi selesai: 12-08-2026 23:26 WIB
+Step 5,500/15,259 | Train Loss: 1.8690 | Val Loss: 1.8561 | LR: 4.38e-04 | Speed: 80,289 tok/s
+    Sisa: 5 jam 5 menit | Estimasi selesai: 12-08-2026 23:26 WIB
+--> Menyimpan checkpoint step 5,500...
+--> Checkpoint berhasil disimpan.
+Step 5,600/15,259 | Train Loss: 1.8407 | LR: 4.33e-04 | Speed: 76,979 tok/s
+    Sisa: 5 jam 15 menit | Estimasi selesai: 12-08-2026 23:39 WIB
+Step 5,700/15,259 | Train Loss: 1.8937 | LR: 4.27e-04 | Speed: 80,309 tok/s
+    Sisa: 4 jam 59 menit | Estimasi selesai: 12-08-2026 23:25 WIB
+--> Menyimpan checkpoint step 5,750...
+--> Checkpoint berhasil disimpan.
+Step 5,800/15,259 | Train Loss: 1.8123 | LR: 4.21e-04 | Speed: 76,567 tok/s
+    Sisa: 5 jam 10 menit | Estimasi selesai: 12-08-2026 23:39 WIB
+Step 5,900/15,259 | Train Loss: 1.8299 | LR: 4.15e-04 | Speed: 80,336 tok/s
+    Sisa: 4 jam 52 menit | Estimasi selesai: 12-08-2026 23:25 WIB
+Step 6,000/15,259 | Train Loss: 1.7770 | Val Loss: 1.7641 | LR: 4.10e-04 | Speed: 80,335 tok/s
+    Sisa: 4 jam 49 menit | Estimasi selesai: 12-08-2026 23:24 WIB
+--> Menyimpan checkpoint step 6,000...
+--> Checkpoint berhasil disimpan.
+Step 6,100/15,259 | Train Loss: 1.8528 | LR: 4.04e-04 | Speed: 76,963 tok/s
+    Sisa: 4 jam 58 menit | Estimasi selesai: 12-08-2026 23:36 WIB
+Step 6,200/15,259 | Train Loss: 1.8107 | LR: 3.98e-04 | Speed: 80,299 tok/s
+    Sisa: 4 jam 43 menit | Estimasi selesai: 12-08-2026 23:24 WIB
+--> Menyimpan checkpoint step 6,250...
+--> Checkpoint berhasil disimpan.
+Step 6,300/15,259 | Train Loss: 1.7450 | LR: 3.92e-04 | Speed: 77,278 tok/s
+    Sisa: 4 jam 51 menit | Estimasi selesai: 12-08-2026 23:34 WIB
+Step 6,400/15,259 | Train Loss: 1.8501 | LR: 3.86e-04 | Speed: 80,304 tok/s
+    Sisa: 4 jam 37 menit | Estimasi selesai: 12-08-2026 23:23 WIB
+Step 6,500/15,259 | Train Loss: 1.8193 | Val Loss: 1.8275 | LR: 3.80e-04 | Speed: 80,300 tok/s
+    Sisa: 4 jam 34 menit | Estimasi selesai: 12-08-2026 23:22 WIB
+--> Menyimpan checkpoint step 6,500...
+--> Checkpoint berhasil disimpan.
+Step 6,600/15,259 | Train Loss: 1.8365 | LR: 3.74e-04 | Speed: 76,885 tok/s
+    Sisa: 4 jam 42 menit | Estimasi selesai: 12-08-2026 23:34 WIB
+Step 6,700/15,259 | Train Loss: 1.8349 | LR: 3.67e-04 | Speed: 80,335 tok/s
+    Sisa: 4 jam 27 menit | Estimasi selesai: 12-08-2026 23:22 WIB
+--> Menyimpan checkpoint step 6,750...
+--> Checkpoint berhasil disimpan.
+Step 6,800/15,259 | Train Loss: 1.8032 | LR: 3.61e-04 | Speed: 76,981 tok/s
+    Sisa: 4 jam 36 menit | Estimasi selesai: 12-08-2026 23:33 WIB
+Step 6,900/15,259 | Train Loss: 1.8108 | LR: 3.55e-04 | Speed: 80,310 tok/s
+    Sisa: 4 jam 21 menit | Estimasi selesai: 12-08-2026 23:21 WIB
+Step 7,000/15,259 | Train Loss: 1.8851 | Val Loss: 1.7555 | LR: 3.49e-04 | Speed: 80,316 tok/s
+    Sisa: 4 jam 18 menit | Estimasi selesai: 12-08-2026 23:21 WIB
+--> Menyimpan checkpoint step 7,000...
+--> Checkpoint berhasil disimpan.
+Step 7,100/15,259 | Train Loss: 1.7942 | LR: 3.43e-04 | Speed: 76,869 tok/s
+    Sisa: 4 jam 26 menit | Estimasi selesai: 12-08-2026 23:32 WIB
+Step 7,200/15,259 | Train Loss: 1.8581 | LR: 3.36e-04 | Speed: 80,306 tok/s
+    Sisa: 4 jam 12 menit | Estimasi selesai: 12-08-2026 23:20 WIB
+--> Menyimpan checkpoint step 7,250...
+--> Checkpoint berhasil disimpan.
+Step 7,300/15,259 | Train Loss: 1.8305 | LR: 3.30e-04 | Speed: 76,655 tok/s
+    Sisa: 4 jam 20 menit | Estimasi selesai: 12-08-2026 23:32 WIB
+Step 7,400/15,259 | Train Loss: 1.9307 | LR: 3.24e-04 | Speed: 80,312 tok/s
+    Sisa: 4 jam 5 menit | Estimasi selesai: 12-08-2026 23:19 WIB
+Step 7,500/15,259 | Train Loss: 1.7957 | Val Loss: 1.8410 | LR: 3.18e-04 | Speed: 80,307 tok/s
+    Sisa: 4 jam 2 menit | Estimasi selesai: 12-08-2026 23:19 WIB
+--> Menyimpan checkpoint step 7,500...
+--> Checkpoint berhasil disimpan.
+Step 7,600/15,259 | Train Loss: 1.8192 | LR: 3.11e-04 | Speed: 76,989 tok/s
+    Sisa: 4 jam 9 menit | Estimasi selesai: 12-08-2026 23:29 WIB
+Step 7,700/15,259 | Train Loss: 1.8331 | LR: 3.05e-04 | Speed: 80,304 tok/s
+    Sisa: 3 jam 56 menit | Estimasi selesai: 12-08-2026 23:18 WIB
+--> Menyimpan checkpoint step 7,750...
+--> Checkpoint berhasil disimpan.
+Step 7,800/15,259 | Train Loss: 1.7958 | LR: 2.99e-04 | Speed: 76,969 tok/s
+    Sisa: 4 jam 3 menit | Estimasi selesai: 12-08-2026 23:28 WIB
+Step 7,900/15,259 | Train Loss: 1.7923 | LR: 2.92e-04 | Speed: 80,333 tok/s
+    Sisa: 3 jam 50 menit | Estimasi selesai: 12-08-2026 23:17 WIB
+Step 8,000/15,259 | Train Loss: 1.7766 | Val Loss: 1.7145 | LR: 2.86e-04 | Speed: 80,334 tok/s
+    Sisa: 3 jam 47 menit | Estimasi selesai: 12-08-2026 23:17 WIB
+--> Menyimpan checkpoint step 8,000...
+--> Checkpoint berhasil disimpan.
+Step 8,100/15,259 | Train Loss: 1.8097 | LR: 2.80e-04 | Speed: 77,157 tok/s
+    Sisa: 3 jam 53 menit | Estimasi selesai: 12-08-2026 23:26 WIB
+Step 8,200/15,259 | Train Loss: 1.7633 | LR: 2.74e-04 | Speed: 80,326 tok/s
+    Sisa: 3 jam 40 menit | Estimasi selesai: 12-08-2026 23:16 WIB
+--> Menyimpan checkpoint step 8,250...
+--> Checkpoint berhasil disimpan.
+Step 8,300/15,259 | Train Loss: 1.8033 | LR: 2.67e-04 | Speed: 76,657 tok/s
+    Sisa: 3 jam 48 menit | Estimasi selesai: 12-08-2026 23:26 WIB
+Step 8,400/15,259 | Train Loss: 1.7488 | LR: 2.61e-04 | Speed: 80,337 tok/s
+    Sisa: 3 jam 34 menit | Estimasi selesai: 12-08-2026 23:16 WIB
+Step 8,500/15,259 | Train Loss: 1.8007 | Val Loss: 1.6473 | LR: 2.55e-04 | Speed: 80,337 tok/s
+    Sisa: 3 jam 31 menit | Estimasi selesai: 12-08-2026 23:15 WIB
+--> Menyimpan checkpoint step 8,500...
+--> Checkpoint berhasil disimpan.
+Step 8,600/15,259 | Train Loss: 1.7763 | LR: 2.49e-04 | Speed: 77,036 tok/s
+    Sisa: 3 jam 37 menit | Estimasi selesai: 12-08-2026 23:24 WIB
+Step 8,700/15,259 | Train Loss: 1.7328 | LR: 2.42e-04 | Speed: 80,316 tok/s
+    Sisa: 3 jam 25 menit | Estimasi selesai: 12-08-2026 23:15 WIB
+--> Menyimpan checkpoint step 8,750...
+--> Checkpoint berhasil disimpan.
+Step 8,800/15,259 | Train Loss: 1.7333 | LR: 2.36e-04 | Speed: 77,013 tok/s
+    Sisa: 3 jam 30 menit | Estimasi selesai: 12-08-2026 23:23 WIB
+Step 8,900/15,259 | Train Loss: 1.7524 | LR: 2.30e-04 | Speed: 80,299 tok/s
+    Sisa: 3 jam 18 menit | Estimasi selesai: 12-08-2026 23:14 WIB
+Step 9,000/15,259 | Train Loss: 1.7585 | Val Loss: 1.6908 | LR: 2.24e-04 | Speed: 80,311 tok/s
+    Sisa: 3 jam 15 menit | Estimasi selesai: 12-08-2026 23:13 WIB
+--> Menyimpan checkpoint step 9,000...
+--> Checkpoint berhasil disimpan.
+Step 9,100/15,259 | Train Loss: 1.7565 | LR: 2.18e-04 | Speed: 77,013 tok/s
+    Sisa: 3 jam 20 menit | Estimasi selesai: 12-08-2026 23:21 WIB
+Step 9,200/15,259 | Train Loss: 1.7983 | LR: 2.12e-04 | Speed: 80,306 tok/s
+    Sisa: 3 jam 9 menit | Estimasi selesai: 12-08-2026 23:13 WIB
+--> Menyimpan checkpoint step 9,250...
+--> Checkpoint berhasil disimpan.
+Step 9,300/15,259 | Train Loss: 1.7308 | LR: 2.06e-04 | Speed: 75,921 tok/s
+    Sisa: 3 jam 17 menit | Estimasi selesai: 12-08-2026 23:23 WIB
+Step 9,400/15,259 | Train Loss: 1.7653 | LR: 2.00e-04 | Speed: 80,312 tok/s
+    Sisa: 3 jam 3 menit | Estimasi selesai: 12-08-2026 23:12 WIB
+Step 9,500/15,259 | Train Loss: 1.7913 | Val Loss: 1.6678 | LR: 1.94e-04 | Speed: 80,300 tok/s
+    Sisa: 3 jam 0 menit | Estimasi selesai: 12-08-2026 23:12 WIB
+--> Menyimpan checkpoint step 9,500...
+--> Checkpoint berhasil disimpan.
+Step 9,600/15,259 | Train Loss: 1.7941 | LR: 1.88e-04 | Speed: 76,921 tok/s
+    Sisa: 3 jam 4 menit | Estimasi selesai: 12-08-2026 23:19 WIB
+Step 9,700/15,259 | Train Loss: 1.7079 | LR: 1.82e-04 | Speed: 80,298 tok/s
+    Sisa: 2 jam 53 menit | Estimasi selesai: 12-08-2026 23:11 WIB
+--> Menyimpan checkpoint step 9,750...
+--> Checkpoint berhasil disimpan.
+Step 9,800/15,259 | Train Loss: 1.8035 | LR: 1.76e-04 | Speed: 76,947 tok/s
+    Sisa: 2 jam 58 menit | Estimasi selesai: 12-08-2026 23:18 WIB
+Step 9,900/15,259 | Train Loss: 1.6973 | LR: 1.71e-04 | Speed: 80,313 tok/s
+    Sisa: 2 jam 47 menit | Estimasi selesai: 12-08-2026 23:10 WIB
+Step 10,000/15,259 | Train Loss: 1.8420 | Val Loss: 1.7445 | LR: 1.65e-04 | Speed: 80,312 tok/s
+    Sisa: 2 jam 44 menit | Estimasi selesai: 12-08-2026 23:10 WIB
+--> Menyimpan checkpoint step 10,000...
+--> Checkpoint berhasil disimpan.
+Step 10,100/15,259 | Train Loss: 1.7130 | LR: 1.60e-04 | Speed: 76,963 tok/s
+    Sisa: 2 jam 48 menit | Estimasi selesai: 12-08-2026 23:17 WIB
+Step 10,200/15,259 | Train Loss: 1.8169 | LR: 1.54e-04 | Speed: 80,313 tok/s
+    Sisa: 2 jam 38 menit | Estimasi selesai: 12-08-2026 23:09 WIB
+--> Menyimpan checkpoint step 10,250...
+--> Checkpoint berhasil disimpan.
+Step 10,300/15,259 | Train Loss: 1.7459 | LR: 1.49e-04 | Speed: 76,896 tok/s
+    Sisa: 2 jam 42 menit | Estimasi selesai: 12-08-2026 23:16 WIB
+Step 10,400/15,259 | Train Loss: 1.7628 | LR: 1.43e-04 | Speed: 80,311 tok/s
+    Sisa: 2 jam 31 menit | Estimasi selesai: 12-08-2026 23:09 WIB
+Step 10,500/15,259 | Train Loss: 1.7362 | Val Loss: 1.6423 | LR: 1.38e-04 | Speed: 80,314 tok/s
+    Sisa: 2 jam 28 menit | Estimasi selesai: 12-08-2026 23:08 WIB
+--> Menyimpan checkpoint step 10,500...
+--> Checkpoint berhasil disimpan.
+Step 10,600/15,259 | Train Loss: 1.7215 | LR: 1.33e-04 | Speed: 76,873 tok/s
+    Sisa: 2 jam 32 menit | Estimasi selesai: 12-08-2026 23:14 WIB
+Step 10,700/15,259 | Train Loss: 1.7551 | LR: 1.27e-04 | Speed: 80,305 tok/s
+    Sisa: 2 jam 22 menit | Estimasi selesai: 12-08-2026 23:07 WIB
+--> Menyimpan checkpoint step 10,750...
+--> Checkpoint berhasil disimpan.
+Step 10,800/15,259 | Train Loss: 1.6630 | LR: 1.22e-04 | Speed: 77,123 tok/s
+    Sisa: 2 jam 25 menit | Estimasi selesai: 12-08-2026 23:13 WIB
+Step 10,900/15,259 | Train Loss: 1.7651 | LR: 1.17e-04 | Speed: 80,330 tok/s
+    Sisa: 2 jam 16 menit | Estimasi selesai: 12-08-2026 23:07 WIB
+Step 11,000/15,259 | Train Loss: 1.6907 | Val Loss: 1.6988 | LR: 1.12e-04 | Speed: 80,321 tok/s
+    Sisa: 2 jam 13 menit | Estimasi selesai: 12-08-2026 23:06 WIB
+--> Menyimpan checkpoint step 11,000...
+--> Checkpoint berhasil disimpan.
+Step 11,100/15,259 | Train Loss: 1.7403 | LR: 1.07e-04 | Speed: 76,981 tok/s
+    Sisa: 2 jam 15 menit | Estimasi selesai: 12-08-2026 23:12 WIB
+Step 11,200/15,259 | Train Loss: 1.7357 | LR: 1.03e-04 | Speed: 80,329 tok/s
+    Sisa: 2 jam 6 menit | Estimasi selesai: 12-08-2026 23:06 WIB
+--> Menyimpan checkpoint step 11,250...
+--> Checkpoint berhasil disimpan.
+Step 11,300/15,259 | Train Loss: 1.6833 | LR: 9.79e-05 | Speed: 77,122 tok/s
+    Sisa: 2 jam 8 menit | Estimasi selesai: 12-08-2026 23:10 WIB
+Step 11,400/15,259 | Train Loss: 1.7212 | LR: 9.32e-05 | Speed: 80,310 tok/s
+    Sisa: 2 jam 0 menit | Estimasi selesai: 12-08-2026 23:05 WIB
+Step 11,500/15,259 | Train Loss: 1.7103 | Val Loss: 1.7075 | LR: 8.87e-05 | Speed: 80,305 tok/s
+    Sisa: 1 jam 57 menit | Estimasi selesai: 12-08-2026 23:05 WIB
+--> Menyimpan checkpoint step 11,500...
+--> Checkpoint berhasil disimpan.
+Step 11,600/15,259 | Train Loss: 1.6965 | LR: 8.43e-05 | Speed: 77,103 tok/s
+    Sisa: 1 jam 59 menit | Estimasi selesai: 12-08-2026 23:09 WIB
+Step 11,700/15,259 | Train Loss: 1.7789 | LR: 8.00e-05 | Speed: 80,307 tok/s
+    Sisa: 1 jam 51 menit | Estimasi selesai: 12-08-2026 23:04 WIB
+--> Menyimpan checkpoint step 11,750...
+--> Checkpoint berhasil disimpan.
+Step 11,800/15,259 | Train Loss: 1.7817 | LR: 7.57e-05 | Speed: 77,291 tok/s
+    Sisa: 1 jam 52 menit | Estimasi selesai: 12-08-2026 23:08 WIB
+Step 11,900/15,259 | Train Loss: 1.6970 | LR: 7.16e-05 | Speed: 80,329 tok/s
+    Sisa: 1 jam 45 menit | Estimasi selesai: 12-08-2026 23:03 WIB
+Step 12,000/15,259 | Train Loss: 1.6749 | Val Loss: 1.6535 | LR: 6.76e-05 | Speed: 80,333 tok/s
+    Sisa: 1 jam 41 menit | Estimasi selesai: 12-08-2026 23:03 WIB
+--> Menyimpan checkpoint step 12,000...
+--> Checkpoint berhasil disimpan.
+Step 12,100/15,259 | Train Loss: 1.6848 | LR: 6.36e-05 | Speed: 77,077 tok/s
+    Sisa: 1 jam 42 menit | Estimasi selesai: 12-08-2026 23:07 WIB
+Step 12,200/15,259 | Train Loss: 1.7288 | LR: 5.98e-05 | Speed: 80,295 tok/s
+    Sisa: 1 jam 35 menit | Estimasi selesai: 12-08-2026 23:02 WIB
+--> Menyimpan checkpoint step 12,250...
+--> Checkpoint berhasil disimpan.
+Step 12,300/15,259 | Train Loss: 1.6952 | LR: 5.61e-05 | Speed: 76,793 tok/s
+    Sisa: 1 jam 36 menit | Estimasi selesai: 12-08-2026 23:06 WIB
+Step 12,400/15,259 | Train Loss: 1.7317 | LR: 5.25e-05 | Speed: 80,328 tok/s
+    Sisa: 1 jam 29 menit | Estimasi selesai: 12-08-2026 23:01 WIB
+Step 12,500/15,259 | Train Loss: 1.7098 | Val Loss: 1.6447 | LR: 4.90e-05 | Speed: 80,333 tok/s
+    Sisa: 1 jam 26 menit | Estimasi selesai: 12-08-2026 23:01 WIB
+--> Menyimpan checkpoint step 12,500...
+--> Checkpoint berhasil disimpan.
+Step 12,600/15,259 | Train Loss: 1.6829 | LR: 4.56e-05 | Speed: 77,020 tok/s
+    Sisa: 1 jam 26 menit | Estimasi selesai: 12-08-2026 23:04 WIB
+Step 12,700/15,259 | Train Loss: 1.7175 | LR: 4.23e-05 | Speed: 80,337 tok/s
+    Sisa: 1 jam 20 menit | Estimasi selesai: 12-08-2026 23:00 WIB
+--> Menyimpan checkpoint step 12,750...
+--> Checkpoint berhasil disimpan.
+Step 12,800/15,259 | Train Loss: 1.6971 | LR: 3.91e-05 | Speed: 75,625 tok/s
+    Sisa: 1 jam 21 menit | Estimasi selesai: 12-08-2026 23:05 WIB
+Step 12,900/15,259 | Train Loss: 1.7254 | LR: 3.61e-05 | Speed: 80,330 tok/s
+    Sisa: 1 jam 13 menit | Estimasi selesai: 12-08-2026 23:00 WIB
+Step 13,000/15,259 | Train Loss: 1.7465 | Val Loss: 1.6746 | LR: 3.31e-05 | Speed: 80,333 tok/s
+    Sisa: 1 jam 10 menit | Estimasi selesai: 12-08-2026 22:59 WIB
+--> Menyimpan checkpoint step 13,000...
+--> Checkpoint berhasil disimpan.
+Step 13,100/15,259 | Train Loss: 1.6939 | LR: 3.03e-05 | Speed: 77,162 tok/s
+    Sisa: 1 jam 10 menit | Estimasi selesai: 12-08-2026 23:02 WIB
+Step 13,200/15,259 | Train Loss: 1.7056 | LR: 2.76e-05 | Speed: 80,334 tok/s
+    Sisa: 1 jam 4 menit | Estimasi selesai: 12-08-2026 22:58 WIB
+--> Menyimpan checkpoint step 13,250...
+--> Checkpoint berhasil disimpan.
+Step 13,300/15,259 | Train Loss: 1.7298 | LR: 2.50e-05 | Speed: 77,163 tok/s
+    Sisa: 1 jam 3 menit | Estimasi selesai: 12-08-2026 23:01 WIB
+Step 13,400/15,259 | Train Loss: 1.7027 | LR: 2.26e-05 | Speed: 80,313 tok/s
+    Sisa: 58 menit 8 detik | Estimasi selesai: 12-08-2026 22:58 WIB
+Step 13,500/15,259 | Train Loss: 1.6961 | Val Loss: 1.6575 | LR: 2.02e-05 | Speed: 80,326 tok/s
+    Sisa: 55 menit 0 detik | Estimasi selesai: 12-08-2026 22:57 WIB
+--> Menyimpan checkpoint step 13,500...
+--> Checkpoint berhasil disimpan.
+Step 13,600/15,259 | Train Loss: 1.7052 | LR: 1.80e-05 | Speed: 76,849 tok/s
+    Sisa: 54 menit 13 detik | Estimasi selesai: 12-08-2026 22:59 WIB
+Step 13,700/15,259 | Train Loss: 1.6747 | LR: 1.59e-05 | Speed: 80,308 tok/s
+    Sisa: 48 menit 46 detik | Estimasi selesai: 12-08-2026 22:57 WIB
+--> Menyimpan checkpoint step 13,750...
+--> Checkpoint berhasil disimpan.
+Step 13,800/15,259 | Train Loss: 1.6900 | LR: 1.40e-05 | Speed: 76,880 tok/s
+    Sisa: 47 menit 40 detik | Estimasi selesai: 12-08-2026 22:58 WIB
+Step 13,900/15,259 | Train Loss: 1.7272 | LR: 1.21e-05 | Speed: 80,307 tok/s
+    Sisa: 42 menit 30 detik | Estimasi selesai: 12-08-2026 22:56 WIB
+Step 14,000/15,259 | Train Loss: 1.7305 | Val Loss: 1.6875 | LR: 1.04e-05 | Speed: 80,305 tok/s
+    Sisa: 39 menit 23 detik | Estimasi selesai: 12-08-2026 22:56 WIB
+--> Menyimpan checkpoint step 14,000...
+--> Checkpoint berhasil disimpan.
+Step 14,100/15,259 | Train Loss: 1.6842 | LR: 8.84e-06 | Speed: 77,080 tok/s
+    Sisa: 37 menit 46 detik | Estimasi selesai: 12-08-2026 22:57 WIB
+Step 14,200/15,259 | Train Loss: 1.7062 | LR: 7.39e-06 | Speed: 80,314 tok/s
+    Sisa: 33 menit 7 detik | Estimasi selesai: 12-08-2026 22:55 WIB
+--> Menyimpan checkpoint step 14,250...
+--> Checkpoint berhasil disimpan.
+Step 14,300/15,259 | Train Loss: 1.6835 | LR: 6.06e-06 | Speed: 76,508 tok/s
+    Sisa: 31 menit 29 detik | Estimasi selesai: 12-08-2026 22:56 WIB
+Step 14,400/15,259 | Train Loss: 1.7530 | LR: 4.87e-06 | Speed: 80,294 tok/s
+    Sisa: 26 menit 52 detik | Estimasi selesai: 12-08-2026 22:54 WIB
+Step 14,500/15,259 | Train Loss: 1.6659 | Val Loss: 1.6578 | LR: 3.80e-06 | Speed: 80,309 tok/s
+    Sisa: 23 menit 44 detik | Estimasi selesai: 12-08-2026 22:54 WIB
+--> Menyimpan checkpoint step 14,500...
+--> Checkpoint berhasil disimpan.
+Step 14,600/15,259 | Train Loss: 1.7312 | LR: 2.87e-06 | Speed: 77,077 tok/s
+    Sisa: 21 menit 28 detik | Estimasi selesai: 12-08-2026 22:54 WIB
+Step 14,700/15,259 | Train Loss: 1.7066 | LR: 2.06e-06 | Speed: 80,338 tok/s
+    Sisa: 17 menit 28 detik | Estimasi selesai: 12-08-2026 22:53 WIB
+--> Menyimpan checkpoint step 14,750...
+--> Checkpoint berhasil disimpan.
+Step 14,800/15,259 | Train Loss: 1.7397 | LR: 1.39e-06 | Speed: 77,168 tok/s
+    Sisa: 14 menit 56 detik | Estimasi selesai: 12-08-2026 22:53 WIB
+Step 14,900/15,259 | Train Loss: 1.6485 | LR: 8.52e-07 | Speed: 80,334 tok/s
+    Sisa: 11 menit 13 detik | Estimasi selesai: 12-08-2026 22:52 WIB
+Step 15,000/15,259 | Train Loss: 1.6792 | Val Loss: 1.6317 | LR: 4.44e-07 | Speed: 80,328 tok/s
+    Sisa: 8 menit 6 detik | Estimasi selesai: 12-08-2026 22:52 WIB
+--> Menyimpan checkpoint step 15,000...
+--> Checkpoint berhasil disimpan.
+Step 15,100/15,259 | Train Loss: 1.7161 | LR: 1.67e-07 | Speed: 75,486 tok/s
+    Sisa: 5 menit 17 detik | Estimasi selesai: 12-08-2026 22:52 WIB
+Step 15,200/15,259 | Train Loss: 1.6655 | LR: 2.30e-08 | Speed: 80,304 tok/s
+    Sisa: 1 menit 50 detik | Estimasi selesai: 12-08-2026 22:51 WIB
+--> Menyimpan checkpoint step 15,250...
+--> Checkpoint berhasil disimpan.
+Step 15,259/15,259 | Train Loss: 1.7229 | Val Loss: 1.7012 | LR: 0.00e+00 | Speed: 74,407 tok/s
+    Sisa: 0 menit 0 detik | Estimasi selesai: 12-08-2026 22:51 WIB
+--> Menyimpan checkpoint step 15,259...
+--> Checkpoint berhasil disimpan.
+Writing model shards: 100%
+ 1/1 [00:00<00:00,  1.18it/s]
+=== PRE-TRAINING SELESAI ===
+Model: /content/drive/MyDrive/Mini_LLM_100M/novai_final_base_model_a100_102m_v3
